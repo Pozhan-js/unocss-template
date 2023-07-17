@@ -1,0 +1,147 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "林科大基建"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subPages/workflow",
+      "pages": [
+        {
+          "path": "started/started",
+          "style": {
+            "navigationBarTitleText": "我发起的",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "backlog/backlog",
+          "style": {
+            "navigationBarTitleText": "待办事项",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "operate/auditopinion/auditopinion",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "operate/customexamine/customexamine",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "alreadybacklog/alreadybacklog",
+          "style": {
+            "navigationBarTitleText": "已办事项",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "fromhandle/fromhandle",
+          "style": {
+            "navigationBarTitleText": "督查待办",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "flowchart/form",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "webview/webview",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPages/user",
+      "pages": [
+        {
+          "path": "fromList/fromList",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "phone-login/phone-login",
+          "style": {
+            "navigationBarTitleText": "手机号登录",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "dynamic-form/dynamic-form",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/login",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPages/custom",
+      "pages": [
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#a8a5a8",
+    "selectedColor": "#6377F5",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home@2x.png",
+        "selectedIconPath": "static/tabbar/home-checked@2x.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine@2x.png",
+        "selectedIconPath": "static/tabbar/mine-checked@2x.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "林科大基建",
+    "navigationBarBackgroundColor": "#5ec0a3",
+    "backgroundColor": "#5ec0a3"
+  }
+}
